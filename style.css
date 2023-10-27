@@ -1,10 +1,7 @@
-html {
-    background: #ff785a;
-}
-
-/* Bonus */
-html:hover .spider {
-    top: -120%;
+body {
+    background-image: url("Images/charlottesweb.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 .spider {
@@ -62,7 +59,7 @@ html:hover .spider {
     margin: 55%;
     border-radius: 50%;
 
-    /* 3. Animatie */
+    /* 3. Animate */
     animation: look 8s infinite;
 }
 
@@ -118,7 +115,7 @@ html:hover .spider {
     margin-left: -30px;
 }
 
-/* 1. Animatie */
+/* 1. Animate */
 @keyframes look {
     0%, 40%, 100% {
         transform: translateX(0); 
@@ -130,7 +127,7 @@ html:hover .spider {
 }
 
 
-/* 3. Animatie */
+/* 3. Animate */
 @keyframes swing {
     0%, 100% {
         transform: translateY(0);
